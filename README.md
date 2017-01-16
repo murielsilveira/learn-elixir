@@ -1,7 +1,5 @@
 # LearnElixir
 
-## Get started
-
 Install the dependencies
 
 ```bash
