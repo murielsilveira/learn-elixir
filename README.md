@@ -1,4 +1,4 @@
-# LearnElixir
+# LearnElixir [![Build Status](https://travis-ci.org/murielsilveira/learn_elixir.svg?branch=master)](https://travis-ci.org/murielsilveira/learn_elixir)
 
 Install the dependencies
 
