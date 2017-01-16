@@ -5,9 +5,11 @@ defmodule User do
   defstruct name: nil, email: nil
 
   def first_name(user) do
-    user.name
-    |> split
-    |> first
+    case user.name do
+      nil -> ""
+      "" -> ""
+      name -> first(split(name))
+    end
   end
 
   def last_name(user) do
