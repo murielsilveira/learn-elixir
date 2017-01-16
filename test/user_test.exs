@@ -6,12 +6,12 @@ defmodule UserTest do
     %User{}
   end
 
-  test "User.name default value is nil" do
+  test "User name attribute default value is nil" do
     user = %User{}
     assert user.name == nil
   end
 
-  test "User.email default value is nil" do
+  test "User email attribute default value is nil" do
     user = %User{}
     assert user.email == nil
   end
